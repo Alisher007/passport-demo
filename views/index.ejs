@@ -1,0 +1,11 @@
+
+<%- include('head'); -%>
+<%- include('header'); -%>
+<h1><%= title %></h1>
+<p>Welcome to <%= title %></p>
+<% if (locals.user) { %>
+    <p><%= user %></p>
+    
+  <% } %>
+<%- include('foot'); -%>
+  
